@@ -1,0 +1,402 @@
+
+16-02-2020:
+===========
+https://engineering.apssdc.in/register
+
+
+Github:
+=======
+	
+	Username/Email:
+	Password:
+	
+RAPTOR:
+=======
+	- To design flow charts for a program
+	- Developed by Martin Carlislie
+	
+R - Rapid
+A - Algorithmic
+P - Prototyping
+T - Tool for 
+O - Ordered
+R - Reasoning
+
+Main Structure in Raptor:
+=========================
+	- Symbols => To attach the symbols in a flow chart like [input,output,assignment,selection,loop,call]
+	- Watch window => It defines the variable value changes in a loop or an assignment to a variable.
+	- Workspace => To do some flow actions and to design the symbols
+	- Master Console => It displays the program output
+Symbols:
+========
+	- Assignment => It defines the assigning a value to a variable. It can be used for assigning expressions or operations etc.,
+	- Input => It defines value can be accessed from user[Reading a value from user]
+	- Output => It defines value can be displayed from user or from a program[Outputs a value from program]
+	- Call => It defines accessing a function from other function[Used in functions]
+	- Selection => It defines for checking a given condition is either true or false[if,if-else,else if ladder,nested if]
+	- Loop => It defines iterating from start to stop while condition is satisfying untill it fails[for,while,do-while etc.,]
+	  
+	To sum 2 numbers:
+	=================
+	Algorithm:
+	step-1: Start
+	step-2: access values from user
+	step-3: sum two numbers
+	step-4: print sum
+	step-5: stop
+	
+	Pseudocode:
+	read 2 numbers from user
+	perform sum of 2 numbers
+	print result
+
+Loop: 
+=====
+
+"Even numbers from "+a+" to "+b+" is: "	
+	
+Input: 5 10
+Output: 
+	Starting range is: 5
+	Ending range is: 10
+	Even numbers from 5 to 10 is: 6
+	8
+	10
+	
+
+Input: 1245
+Output: 
+	Given number is: 1245 and its reverse is: 5421
+	Digit count for 1245 is: 4
+
+Input: 1456
+Output:
+	Given number is: 1456 and its even digits count is: 2
+ 
+Input: 3
+Output: Given number is: 3 and ita factorial is: 6
+
+
+
+ 
+
+
+
+floor() => integer
+abs() => -(n+1)
+ceil() => nearly
+
+
+r=0
+
+r=r*10+n%10
+n=n/10	
+	
+	
+n=123
+
+r=0*10+123%10
+r=0+3
+r=3
+n=12
+	
+r=3*10+12%10
+r=30+2
+r=32
+n=1
+r=32*10+1%10
+r=320+1
+r=321
+n=1/10
+n=0	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+Task-1:
+	Greet to a user
+Task-2:
+	Percentage calculation[static]
+Task-3:
+	Even or Odd
+Task-4:
+	Voting eligible
+Task-5:
+	Arithmetic Operators
+Task-6:
+	
+	
+	
+
+Inner Loops: Loop within a loop
+
+syntax:
+
+for(intialization;condition;incr/decr)
+{
+	for(initialization;condition;incr/decr)
+	{
+		//stmnts;
+	}
+}
+
+
+
+3
+
+1 2 3
+4 5 6
+7 8 9
+
+3
+
+9 8 7
+6 5 4
+3 2 1
+
+
+
+
+
+
+4
+
+01 02 03 04
+05 06 07 08 
+09 10 11 12
+13 14 15 16 
+
+
+
+01 ** 03 **
+05 ** 07 **
+09 ** 11 **
+13 ** 15 **
+
+
+
+6
+01 02 03 04 05 [] 07
+08 09 10 11 12 13 14
+15 16 17 18 19 20 21
+22 23 24 25 26 27  28
+29 30 31 
+
+printf("%d",sizeof(int));
+
+
+int a[6];
+
+int s;
+scanf("%d",&s);
+int ar[s];
+
+
+Input:6
+ 4 5 6 7 8 9
+Output:
+Even numbers in an array is: 4 6 8
+
+
+
+a[6] = 4 5 6 7 8 9
+
+a[i]%2==0
+	4 6 8
+	
+a[6] = 4 5 6 7 8 9
+
+j=1
+m%2==0
+	a[j] = m
+
+j=s
+
+Roll Number Pattern:
+
+
+	208R1A0500
+	208R1A0501
+	208R1A0502
+
+c=0
+a=1
+b=2
+
+c=a   c=1
+a=b   a=2
+b=c
+print(a)
+print(b)
+print(c)
+
+a=7
+b=2
+
+
+
+a= a+b =9
+b= a-b =7
+a= a-b =2
+
+
+
+a[5] = [230,56,2,45,10]
+
+
+a[1] = 230
+
+a[i] > a[i+1]
+
+a[1] = 56 
+a[2] = 230
+
+a[5] = [56,230,2,45,10]
+
+a[2] = 230
+a[3] = 2
+
+a[5] =   [56,2,230,45,10]
+
+
+Github:
+=======
+
+Git software download link:
+
+ => https://git-scm.com
+ 
+ 
+ linux commands:
+ ===============
+ mkdir => create a directory
+ rmdir => remove a directory when folder is empty
+ cd => change a directory
+ cd .. => backward to a directory
+ ls  => list of files or folders names
+ ls -a => list of files with hidden files or folders
+ ls -l => list of files with all permissions
+ 
+ 
+Git commands:
+=============
+
+git init => To initialise the git commands then it creates a default branch as "Master"
+
+git add filename.extension => It adds to a git in local repository
+
+git add . => It adds all files
+
+git add file1.extension file2.extension => It adds particular selected files
+
+git commit -m "Something message" => It commits the files to a local repository
+
+git config user.name "name of user" => It initialise the author name in local repository for only particular folder
+
+git config user.email "user emailid" => It initialise the author email name in local repository for only particular folder
+
+git remote add remotename "url of github repository"
+
+git remote => to check how many remotes are created for that particular folder
+
+git remote -v => To check the local and online repository [fetch and push] 
+	fetch = pull
+	push = push
+	
+	pull => online changes to be changed to offline
+	push => offline content to be changed to online
+
+
+git remote remove remotename => To delete a remote in offline. If remote name is not passed in adding then it automatically creates as "Origin"
+ 
+git push -f remotename branchname => It if creates an error like "fast-forward" It defines that you are uploading the data to your github for first time thebn we need to use -f to resolve your error
+
+git push remotename branchname
+
+If it prompts use username and password that is created for github
+
+git pull remotename branchname
+
+git log => It defines recent or all activities that is done by users for that folder only.
+
+git log --oneline => It displays all the commit meesages upto 7 characters for each and every commit message 
+==========================================
+
+Steps to follow for uploading your work to github account
+
+step-1: git init
+step-2: git config user.name "your username"
+step-3: git config user.email "your email id"
+step-4: git remote add remotename "url"
+step-5: git remote
+step-6: git remote -v
+step-7: git add .
+step-8: git commit -m "commit message that is user defined"
+step-9: git push remotename branchname
+========================================
+
+To clone your github repository into local system:
+
+step-1: copy the path of repository url while accessing it from particular repository in code then we can copy it while it is in "https"
+step-2: create a directory(folder) in offline and open git bash shell for that particular location.
+step-3: git clone "url of github repository"
+step-4: It downloads all the content from online to offline by using the clone process
+step-5: If we need to change or create another folder or file then  we need to use push command to upload to that particular online repository
+step-6: git add .
+step-7: git commit -m "commit messagethat is from user defined"
+step-8: git push remotename branchname => If the command doesnt works then we need to use -u for that particular folder access permissions as command is shown below:
+	
+	** git push -u remotename branchname
+=> If it is changed it in online then we need to use pull command to change it for offline also
+step-9: git pull remotename branchname
+
+
+Google docs
+google sheet
+google forms
+google sites
+google slides
+
+
+
+
+rm /q/s foldername
+rm -r /path/to/dir/*
+rm -rf directoryname
+
+
+tutorials:
+............
+
+geeksforgeeks
+sanfoundry.com
+codeforwin
+javatpoint
+tutorialpoint
+programmiz
+fresh2refresh
+beginnersbook.com(for theory)
+yusuf shakeel(theory)
+
+
+Array sorting:
+==============
+for (i = 0; i < n; ++i) 
+{
+	for (j = i + 1; j < n; ++j)
+	{
+		if (number[i] > number[j]) 
+		{
+			a =  number[i];
+			number[i] = number[j];
+			number[j] = a;
+		}
+	}
+}

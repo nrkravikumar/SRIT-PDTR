@@ -1,0 +1,50 @@
+()
+Mod
+D
+M
+S
+
+Task1
+........
+print greetings of the day
+
+task2:
+.........
+
+5 2
+read two values 1)add of no is 7
+		2)sub of no is  3
+		3)div of no 2.5
+		4) mul of no 10
+task3:
+..........
+person eligible or not for vote
+
+"Addition of "+a+" and "+b+" is: "+(a+b)
+
+
+vote:
+=====
+Input: 16
+Output: You are not eligible for voting 
+	till you need to wait for 2 years
+
+Input: 20
+Output: You are eligible for vote and 
+	
+you had exceed for 2 years
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
